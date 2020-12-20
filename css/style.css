@@ -1,0 +1,94 @@
+.black{
+    color:black;
+}
+.height{
+    height:90vh;
+}
+.correct{
+    margin:150px;
+}
+.imageCard{
+    margin:10px;
+    padding:5px;
+}
+.imageCard h5{
+    margin-top:15px;
+}
+.bgimage{
+    background-image: url("../images/city.jpg");
+    height:250px;
+    margin-top:30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.9;
+}
+.fire{
+    background-image:url("../images/fire.png");
+    width:100%;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fire .card{
+    background-color:transparent;
+    color:white;
+    border:2px solid white;
+    margin-top:180px;
+    margin-bottom:180px;
+}
+.last{
+    background-image:url("../images/comp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    margin-top:30px;
+    margin-bottom:0;
+    padding:100px 400px;
+}
+.last .card{
+    background-color:transparent;
+    color:white;
+    border:2px solid white;
+    width:100%;
+    height:15em;
+    padding:5px;
+}
+.last .card button{
+    width:7em;
+    border:2px solid white;
+    color:white;
+}
+.last .card button:hover{
+    border:2px solid black;
+    background-color:black;
+    color:white;
+}
+.footer{
+    background-color:black;
+    margin:0;
+    height:350px;
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+}
+.footer h4{
+    color:white;
+}
+.footer .col{
+    margin-top:20px;
+}
+.footer .col .row{
+    color:white;
+    margin-top:15px;
+}
+.social .col{
+    background-color: #333;
+    width:40px;
+    height:40px;
+    text-align:center;
+}
+.footer .col p{ color:white;
+font-size:12px;}
+.footer form{
+    font-size:15px;
+}
